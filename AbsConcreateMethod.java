@@ -1,11 +1,12 @@
 package program;
-abstract class demo1{
+
+abstract class Concrete{
 	abstract void show();
 	void view() {
 		System.out.println("this is concreate method of abstract");
 	}
 }
-class Start extends Demo1{
+class Start extends Concrete{
 	void show() {
 		System.out.println("This");
 	}
